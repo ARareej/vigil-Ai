@@ -8,8 +8,8 @@ import sys
 
 # Add the project root to sys.path to allow absolute imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from src.config import RANDOM_STATE, OUTPUT_MODELS_DIR, TEXT_COLUMN, LABEL_COLUMN
-from src.build_dataset import build_final_dataset
+from config import RANDOM_STATE, OUTPUT_MODELS_DIR, TEXT_COLUMN, LABEL_COLUMN
+from build_dataset import build_final_dataset
 
 def load_and_prepare_data():
     data_path = "data/training_augmented_clean.csv"
