@@ -15,4 +15,4 @@ deep-translator
 python-dotenv
 requests
 pillow
-torchision
+
