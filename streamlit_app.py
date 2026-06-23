@@ -9,7 +9,7 @@ from io import BytesIO
 # Add the project root to sys.path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.predict import predict_prompt
+from predict import predict_prompt
 
 def main():
     # --------------------------
