@@ -6,7 +6,7 @@ import sys
 
 # Add the project root to sys.path to allow absolute imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from src.config import DATA_PATH, PROCESSED_DATA_PATH
+from config import DATA_PATH, PROCESSED_DATA_PATH
 
 def map_aegis_label(row):
     label = str(row["prompt_label"]).lower()
