@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+torch
+transformers
+datasets
+evaluate
+accelerate
+matplotlib
+seaborn
+streamlit
+joblib
+langdetect
+deep-translator
+python-dotenv
+requests
+pillow
