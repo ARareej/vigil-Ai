@@ -18,10 +18,10 @@ from src.config import (
     MODELS, OUTPUT_MODELS_DIR, OUTPUT_REPORTS_DIR, OUTPUT_LOGS_DIR,
     MAX_LENGTH, BATCH_SIZE, EPOCHS, LEARNING_RATE, RANDOM_STATE
 )
-from src.data_preprocessing import load_and_prepare_data
-from src.dataset import create_hf_dataset
-from src.model import load_tokenizer, load_classification_model
-from src.trainer import WeightedTrainer, compute_custom_class_weights
+from sdata_preprocessing import load_and_prepare_data
+from dataset import create_hf_dataset
+from model import load_tokenizer, load_classification_model
+from trainer import WeightedTrainer, compute_custom_class_weights
 
 acc_metric = evaluate.load("accuracy")
 f1_metric = evaluate.load("f1")
