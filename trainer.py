@@ -8,7 +8,7 @@ import sys
 
 # Add the project root to sys.path to allow absolute imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from src.config import CLASS_WEIGHT_MODE, CLASS_WEIGHT_MIN, CLASS_WEIGHT_MAX, USE_FOCAL_LOSS, FOCAL_GAMMA
+from config import CLASS_WEIGHT_MODE, CLASS_WEIGHT_MIN, CLASS_WEIGHT_MAX, USE_FOCAL_LOSS, FOCAL_GAMMA
 
 class FocalLoss(nn.Module):
     def __init__(self, alpha=None, gamma=2, reduction='mean'):
