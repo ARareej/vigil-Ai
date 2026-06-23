@@ -7,8 +7,8 @@ import sys
 
 # Add the project root to sys.path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from src.config import OUTPUT_MODELS_DIR, MAX_LENGTH
-from src.translation import prepare_prompt_for_classification
+from config import OUTPUT_MODELS_DIR, MAX_LENGTH
+from translation import prepare_prompt_for_classification
 
 # Global variables for caching
 _BEST_MODEL = None
