@@ -2,14 +2,10 @@ pandas
 numpy
 scikit-learn
 torch
-torchision
 transformers
-datasets
-evaluate
-accelerate
 matplotlib
 seaborn
-streamlit
+streamlit==1.37.1
 joblib
 langdetect
 deep-translator
