@@ -12,8 +12,8 @@ import sys
 # Add the project root to sys.path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.config import OUTPUT_MODELS_DIR, OUTPUT_REPORTS_DIR, MAX_LENGTH, DATA_PATH
-from src.data_preprocessing import load_and_prepare_data
+from config import OUTPUT_MODELS_DIR, OUTPUT_REPORTS_DIR, MAX_LENGTH, DATA_PATH
+from data_preprocessing import load_and_prepare_data
 
 def evaluate_best_model():
     # 1. Get best model name
